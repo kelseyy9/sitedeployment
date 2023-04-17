@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(255, 235, 208);
+}
+
+.btn-group .button {
+    background-color: #FBA92C;
+    border: none;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 4px 2px;
+    color: #565656;
+    float: center;
+    position: absolute;
+}
+
+.prevbutton {
+    top: 45%;
+    right: 12%;
+    padding: 15px 32px;
+}
+
+.nextbutton {
+    top: 36%;
+    right: 12%;
+    padding: 15px 46px;
+}
+
+.btn-group .button:not(:last-child) {
+    border-bottom: none;
+}
+
+.btn-group .button:hover {
+    background-color: #e6a63f;
+}
